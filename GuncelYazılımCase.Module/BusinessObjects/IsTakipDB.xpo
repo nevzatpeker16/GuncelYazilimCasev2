@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<dataBaseObjectModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7d605958-df6f-4651-aebc-d89aa5d1f5a9" namespace="GuncelYazılımCase.Module.BusinessObjects.Database" dataBaseShemaInfo="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" generateConnectionHelper="true" generateStoredProcedures="false" fieldNameCase="Unchanged" generateDefaultConstructors="false" useNameOf="true" connectionStringName="ConnectionString" createdInVersion="19.2.5.0" generateJsonSerializationContractResolver="false" generateServiceCollectionExtensions="false" lastModifiedInVersion="19.2.5.0" name="Database" xmlns="http://schemas.microsoft.com/dsltools/ORMDataModel">
+  <classes>
+    <dataBaseObjectModelHasClasses Id="745067e9-4378-4875-aa35-6a264c2d65c8">
+      <xpObject Id="008856d4-e9d6-4be5-815c-7d917d525d1c" name="DboEmployee" baseClass="XPObject" userFileName="Employees" designerFileName="Employees.Designer" className="DboEmployee" virtualName="DboEmployee">
+        <fields>
+          <generalXpObjectHasFields Id="519598f5-e5ca-4343-9a35-84e39cb10989">
+            <field Id="e8a91c76-a41a-473a-95f9-f0826090c533" name="EmployeeName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="74348707-aa51-40ba-8e10-e79ef492b495">
+            <field Id="e87b62fc-c8fe-4c83-bdd1-8657d38939ad" name="EmployeeSurname" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ee5d8e57-2bf1-4763-ac7b-d990daa686a9">
+            <field Id="b61cd4f0-f3cf-4eba-baab-e79e572f4146" name="EmployeeTelephone" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="df66337d-f4fe-4b3d-8976-1f9415cec1d9">
+            <field Id="92fa0c4f-20a6-458b-b3a4-54ac37dc2948" name="EmployeeAddress" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="5b051770-cea4-4da9-9749-cd8d17b52b0f">
+            <field Id="514f637d-179a-4171-b02b-cd8bcd7feb6d" name="EmployeeSalary" columnType="Double" virtualColumnType="Double" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="13fec698-5a00-4f19-920e-8a92c432db4d">
+            <field Id="73929fb7-a6a9-4a13-86ac-47afc1b41d5c" name="EmployeeStartDate" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="f1a4ffd4-520c-4540-870c-b78c48c7fc72" sourceCollectionName="DboCasesCollection" name="DboCasesReferencesDboEmployee" targetFieldName="Employee">
+            <xpObjectMoniker Id="25edff68-928d-4fc7-af57-d5cf9bc2dfa1" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="04ae3b7c-f71b-462d-b783-1e0e3bedfbee">
+            <collectionField Id="8271766a-c157-4f4e-a9c3-b0eab292a876" name="DboCasesCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="a23f3349-5e1e-4e39-a76f-2b3f6af0b0c4">
+      <xpObject Id="25edff68-928d-4fc7-af57-d5cf9bc2dfa1" name="DboCases" baseClass="XPObject" userFileName="Cases" designerFileName="Cases.Designer" className="DboCases" virtualName="DboCases">
+        <fields>
+          <generalXpObjectHasFields Id="b2d83a79-08fa-4487-8b5b-2ec6261bdca8">
+            <field Id="deff2fca-0d66-46a9-9d78-d4b444c9934e" name="CaseName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0efe3361-0f22-472f-a54e-c5b797f8a726">
+            <field Id="1b80f14a-c86e-44a8-854d-d33ff9f55e88" name="CaseSubject" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="c2498c2e-96dc-4041-a0fa-cfe389aa56b2">
+            <field Id="505f3260-7761-4aef-93ef-a7260396f061" name="CaseCreationDate" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="98436236-a8ec-41b6-8577-552439c32306">
+            <field Id="35cdce4f-4543-4ecc-9803-a96bf618a2f8" name="CaseSolveDate" columnType="DateTime" virtualColumnType="DateTime" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="ac7fd934-9842-44e9-a37a-18f6bfe3d21a">
+            <field Id="1382a488-090c-4416-b8f2-392cb50e47b7" name="CaseChangeReason" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="0402f2ba-ff7a-4438-842c-2d914482d4a6">
+            <field Id="2443e9df-7021-4d0d-901d-fa3d37f5d932" name="Status" columnType="Single" virtualColumnType="DboStatus" logicalType="DboStatus" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="33905f03-6476-40e9-a399-d3e7e2bd3b4e">
+            <field Id="8b0a057e-57de-4e0b-8961-f84d61d95a73" name="CaseCustomer" virtualColumnType="DboCustomers" logicalType="DboCustomers" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e2f37335-530d-4ae1-8f92-8da2713c46bb">
+            <field Id="fd52170a-0997-4dd7-a28e-fcdb16c673b9" name="Employee" columnType="DateTime" virtualColumnType="DboEmployee" logicalType="DboEmployee" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2d034f6b-d7a5-4f6c-8223-a2c7fa3726e2">
+            <field Id="ee0b44f2-1375-47ed-a2a6-89f78b981820" name="CaseType" columnType="TimeSpan" virtualColumnType="DboCaseType" logicalType="DboCaseType" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="69655b03-d929-4ce7-a438-a18fb2f5b204">
+      <xpObject Id="3dafc3c6-448f-40cd-8839-6197bceed138" name="DboStatus" baseClass="XPObject" userFileName="Status" designerFileName="Status.Designer" className="DboStatus" virtualName="DboStatus">
+        <fields>
+          <generalXpObjectHasFields Id="523f0f68-222a-4eff-bfe1-4da42b1bec94">
+            <field Id="387dac5d-770f-4edc-a824-7439234d8dd6" name="Statu" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="6a3f403b-a418-417c-a4b1-b57b83251686" sourceCollectionName="CasesCollection" name="CasesReferencesStatus" targetFieldName="Status">
+            <xpObjectMoniker Id="25edff68-928d-4fc7-af57-d5cf9bc2dfa1" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="dfaa1a3a-0876-4b02-9189-112278efef9b">
+            <collectionField Id="54842823-1c08-4ba9-a213-85470089d8ba" name="CasesCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="e0d577ad-0fed-42c1-a7c7-e4022ca2ded9">
+      <xpObject Id="696ae8a5-300f-4fb4-b139-3fdc80cfe99c" name="DboCustomerCompanies" baseClass="XPObject" userFileName="CustomerCompanies" designerFileName="CustomerCompanies.Designer" className="DboCustomerCompanies" virtualName="DboCustomerCompanies">
+        <fields>
+          <generalXpObjectHasFields Id="aa4d4426-5bf0-45b8-a431-979db4924792">
+            <field Id="ac671279-a0b5-4460-9af8-2b29ffac60c9" name="CompanyName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="01a5a660-6777-44f4-825b-e9856f2db752">
+            <field Id="c005f7d3-0280-4cc6-8cdb-361e6d5569d2" name="CompanyAddress" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="e4024abc-bbe7-4a1d-a8dd-47dcc5984849">
+            <field Id="aa628fa5-8c82-4862-abec-d3c85edeebdb" name="CompanyTelephoneNumber" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="2c7bfceb-fc48-4ba6-9fc3-16ceb993b607">
+            <field Id="a38fd337-cf84-4c46-81ee-2a4e48ff739b" name="CompanySector" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="8babbe17-d2f4-4c12-b000-3773babeb7b9" sourceCollectionName="CustomersCollection" name="CustomersReferencesCustomerCompanies" targetFieldName="CustomerCompany">
+            <xpObjectMoniker Id="1dc6a8d2-e1b5-410b-a368-8f925f07600e" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="deb405e4-bfe1-4cb6-b16d-7a2fb2d05fc0">
+            <collectionField Id="39997041-58d3-473b-a896-35e78f3e8992" name="CustomersCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="4e7ec6ca-d428-49a5-a2d1-db597b5412e8">
+      <xpObject Id="1dc6a8d2-e1b5-410b-a368-8f925f07600e" name="DboCustomers" baseClass="XPObject" userFileName="Customers" designerFileName="Customers.Designer" className="DboCustomers" virtualName="DboCustomers">
+        <fields>
+          <generalXpObjectHasFields Id="282b40e1-8153-4612-90f2-b6a977eba361">
+            <field Id="5b4139bb-0bc5-46c9-9a22-a6901cc84122" name="CustomerName" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="b62a2b56-eb6a-4715-970a-d390f97981f0">
+            <field Id="7b9fcd2d-d9b9-4046-91b1-218d4de9453a" name="CustomerSurname" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="df88837d-c157-40ab-8c1d-8c0a83134738">
+            <field Id="2d10e408-89d3-4699-9ea8-8584e08db1b7" name="CustomerTelephone" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="644461cc-7bc7-414c-8a2e-f90a7f8c31d4">
+            <field Id="7907c146-39c3-47b7-af40-0e85f65ee032" name="CustomerAddress" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+          <generalXpObjectHasFields Id="518ccb78-d000-4fac-8172-c5cf23c75a9b">
+            <field Id="57cd9427-2457-4ab1-9768-fb0ba1a21d90" name="CustomerCompany" virtualColumnType="DboCustomerCompanies" logicalType="DboCustomerCompanies" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="4e7e6a23-d623-4687-b2a0-c58c341f8d92" sourceCollectionName="CasesCollection" name="CasesReferencesCustomers" targetFieldName="CaseCustomer">
+            <xpObjectMoniker Id="25edff68-928d-4fc7-af57-d5cf9bc2dfa1" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="b392f46e-22a2-404d-bc83-6d65668012b0">
+            <collectionField Id="a3e3de7f-613c-43df-b9a7-7ef298631c78" name="CasesCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+    <dataBaseObjectModelHasClasses Id="6515aafa-a47f-4add-a7c4-4ec0956e476c">
+      <xpObject Id="63dc4b0e-5c7b-4a3b-92a5-db53a5234611" name="DboCaseType" baseClass="XPObject" userFileName="DboCaseType" designerFileName="DboCaseType.Designer" className="DboCaseType" virtualName="DboCaseType">
+        <fields>
+          <generalXpObjectHasFields Id="7aa126bf-5c76-4261-a626-9aefb816460e">
+            <field Id="ea0e99c0-c67f-456c-83c0-de2f1908995d" name="Type" virtualColumnType="String" delayedUpdateModifiedOnly="false" />
+          </generalXpObjectHasFields>
+        </fields>
+        <saTargets>
+          <simpleAssociation Id="6dbcf561-3764-42b1-839e-0601731e3af0" sourceCollectionName="DboCasesCollection" name="DboCasesReferencesDboCaseType" targetFieldName="CaseType">
+            <xpObjectMoniker Id="25edff68-928d-4fc7-af57-d5cf9bc2dfa1" />
+          </simpleAssociation>
+        </saTargets>
+        <collectionFields>
+          <xpObjectHasCollectionFields Id="7bff3887-058b-4fc3-8d80-dac560175ea2">
+            <collectionField Id="adda4505-fcec-4d8f-8094-915f9170c998" name="DboCasesCollection" />
+          </xpObjectHasCollectionFields>
+        </collectionFields>
+      </xpObject>
+    </dataBaseObjectModelHasClasses>
+  </classes>
+</dataBaseObjectModel>

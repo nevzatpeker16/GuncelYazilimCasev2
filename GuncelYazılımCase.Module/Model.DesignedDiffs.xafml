@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="GuncelYazılımCase">
+  <NavigationItems>
+    <Items>
+      <Item Id="Default" Caption="Ana Menü" ViewId="AboutInfo_DetailView">
+        <Items>
+          <Item Id="Cases_ListView" ImageName="Business_Briefcase" />
+          <Item Id="CaseStatus_ListView" ImageName="BO_Attention" />
+          <Item Id="Companies_ListView" ImageName="ModelEditor_EditorFactory" />
+          <Item Id="Customers_ListView" ImageName="Customers" />
+          <Item Id="Employees_ListView" ImageName="BO_Employee" />
+        </Items>
+      </Item>
+      <Item Id="Reports" Caption="Raporlar" />
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="19.2.5.0" IsNewNode="True" />
+  </SchemaModules>
+</Application>
