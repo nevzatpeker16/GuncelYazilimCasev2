@@ -52,12 +52,11 @@ namespace GuncelYazılımCase.Module.Controllers
 
         private void UpdateStatus_Execute(object sender, SimpleActionExecuteEventArgs e)
         {
-            if (((DboCases) View.CurrentObject).Status.Statu == "Closed")
+            while (((DboCases)View.CurrentObject).Status.Statu != "Closed")
             {
-                ((DetailView)View).FindItem("Cases").Refresh();
-                ObjectSpace.SetModified(View.CurrentObject);
-
+                
             }
+            ObjectSpace.SetModified(View.CurrentObject);
         }
     }
 }
