@@ -14,6 +14,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using DevExpress.CodeParser;
+using DevExpress.Utils.Extensions;
 using GuncelYazılımCase.Module.BusinessObjects.Database;
 
 namespace GuncelYazılımCase.Module.Controllers
@@ -41,22 +42,31 @@ namespace GuncelYazılımCase.Module.Controllers
             // Unsubscribe from previously subscribed events and release other references and resources.
             base.OnDeactivated();
         }
-
-        private void simpleAction1_Execute(object sender, SimpleActionExecuteEventArgs e)
+        private void CasesStatusController_Activated(object sender, EventArgs e)
         {
-
-
-
-
+            // Enables the ClearTasks Action if the current Detail View's ViewEditMode property
+            // is set to ViewEditMode.Edit.
+            UpdateStatus.Enabled.SetItemValue("EditMode",
+                ((DetailView)View).ViewEditMode == ViewEditMode.Edit);
+            ((DetailView)View).ViewEditModeChanged +=
+                new EventHandler<EventArgs>(CasesStatusCleared_ViewEditModeChanged);
+        }
+        // Manages the ClearTasks Action enabled state.
+        void CasesStatusCleared_ViewEditModeChanged(object sender, EventArgs e)
+        {
+            UpdateStatus.Enabled.SetItemValue("EditMode",
+                ((DetailView)View).ViewEditMode == ViewEditMode.Edit);
         }
 
-        private void UpdateStatus_Execute(object sender, SimpleActionExecuteEventArgs e)
+
+        private void UpdateStatus_Execute(Object sender, SimpleActionExecuteEventArgs e)
         {
-            while (((DboCases)View.CurrentObject).Status.Statu != "Closed")
+            while (((DboCases)View.CurrentObject).Status.Statu == "Closed")
             {
-                
+                 
             }
             ObjectSpace.SetModified(View.CurrentObject);
         }
+
     }
 }
