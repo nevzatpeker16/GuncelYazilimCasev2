@@ -38,6 +38,7 @@ namespace GuncelYazılımCase.Module.Controllers
             this.UpdateStatus.ConfirmationMessage = "Çağrı statüsünü değiştirmek istiyor musunuz ? ";
             this.UpdateStatus.Id = "UpdateStatus";
             this.UpdateStatus.ImageName = "Activation_Clear";
+            this.UpdateStatus.TargetObjectsCriteriaMode = DevExpress.ExpressApp.Actions.TargetObjectsCriteriaMode.TrueForAll;
             this.UpdateStatus.TargetObjectType = typeof(GuncelYazılımCase.Module.BusinessObjects.Database.DboStatus);
             this.UpdateStatus.TargetViewId = "Cases";
             this.UpdateStatus.ToolTip = null;
